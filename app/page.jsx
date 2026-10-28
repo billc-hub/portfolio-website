@@ -259,7 +259,7 @@ export default function Home() {
           {/* Header Action Buttons */}
           <div className="hidden sm:flex items-center gap-3">
             <a 
-              href="https://www.linkedin.com/in/bill-crawley-21b73a382/" 
+              href="https://www.linkedin.com/in/bill-crawley/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-3.5 py-2 rounded-lg text-xs font-semibold text-slate-200 bg-navy-900 hover:bg-navy-800 border border-navy-700 transition-all flex items-center gap-1.5"
@@ -308,7 +308,7 @@ export default function Home() {
             <a href="#education" onClick={() => setMobileMenuOpen(false)} className="block py-1 text-slate-300 hover:text-gold-400">Education</a>
             <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="block py-1 text-slate-300 hover:text-gold-400">Contact</a>
             <div className="pt-3 border-t border-navy-800 flex flex-wrap gap-2">
-              <a href="https://www.linkedin.com/in/bill-crawley-21b73a382/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded text-xs bg-navy-800 text-slate-200">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/bill-crawley/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded text-xs bg-navy-800 text-slate-200">LinkedIn</a>
               <a href="https://github.com/billc-hub" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded text-xs bg-navy-800 text-slate-200">GitHub</a>
               <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="px-3 py-1.5 rounded text-xs bg-gold-500 text-navy-950 font-semibold">Get in Touch</a>
             </div>
@@ -352,7 +352,7 @@ export default function Home() {
                     Contact Bill
                   </a>
                   <a 
-                    href="https://www.linkedin.com/in/bill-crawley-21b73a382/" 
+                    href="https://www.linkedin.com/in/bill-crawley/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="px-5 py-3 rounded-lg text-sm font-semibold text-slate-200 bg-navy-900 hover:bg-navy-800 border border-navy-700 transition-all flex items-center gap-2"
@@ -395,7 +395,7 @@ export default function Home() {
                     </div>
                     <div className="flex justify-between items-center py-1 border-b border-navy-800/60">
                       <span className="text-slate-400">Direct Email</span>
-                      <a href="mailto:bill@tcp.finance" className="text-gold-400 hover:underline">bill@tcp.finance</a>
+                      <a href="mailto:billc@gdcs.group" className="text-gold-400 hover:underline">billc@gdcs.group</a>
                     </div>
                     <div className="flex justify-between items-center py-1 border-b border-navy-800/60">
                       <span className="text-slate-400">Direct Phone</span>
@@ -664,9 +664,9 @@ export default function Home() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
               
-              <a href="mailto:bill@tcp.finance" className="p-6 rounded-2xl bg-navy-900 border border-navy-800 hover:border-gold-500/50 transition-all block">
+              <a href="mailto:billc@gdcs.group" className="p-6 rounded-2xl bg-navy-900 border border-navy-800 hover:border-gold-500/50 transition-all block">
                 <div className="text-xs uppercase tracking-wider text-slate-400 mb-1">Direct Email</div>
-                <div className="text-sm font-bold text-white truncate">bill@tcp.finance</div>
+                <div className="text-sm font-bold text-white truncate">billc@gdcs.group</div>
                 <div className="text-xs text-gold-400 mt-3 font-medium">Send Email &rarr;</div>
               </a>
 
@@ -677,7 +677,7 @@ export default function Home() {
               </a>
 
               <a 
-                href="https://www.linkedin.com/in/bill-crawley-21b73a382/" 
+                href="https://www.linkedin.com/in/bill-crawley/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="p-6 rounded-2xl bg-navy-900 border border-navy-800 hover:border-gold-500/50 transition-all block"
@@ -716,7 +716,7 @@ export default function Home() {
             <span>Dubai, United Arab Emirates</span>
           </div>
           <div className="flex items-center gap-4">
-            <a href="https://www.linkedin.com/in/bill-crawley-21b73a382/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/bill-crawley/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300">LinkedIn</a>
             <a href="https://github.com/billc-hub" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300">GitHub</a>
             <a href="#contact" className="hover:text-slate-300">Contact</a>
           </div>
