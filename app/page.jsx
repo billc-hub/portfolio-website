@@ -220,7 +220,7 @@ export default function Home() {
   const competencies = [
     { title: 'Global Market Expansion', desc: 'Hands-on operational launch across 29+ countries in Africa, Middle East, Asia Pacific, and North America.' },
     { title: 'Board Governance & Advisory', desc: 'Board stewardship for enterprises employing over 15,000 personnel across systems integration, MSP, and BPO sectors.' },
-    { title: 'Business Startup & Blitzscaling', desc: 'Certified in Blitzscaling methodology (Reid Hoffman & Chris Yeh); scaling startups rapidly through uncertain growth phases.' },
+    { title: 'Business Startup & High-Growth Scaling', desc: 'Proven operational methodologies for driving hyper-growth, structuring multi-market expansion, and navigating extreme uncertainty at global enterprise scale.' },
     { title: 'Go-To-Market & P&L Leadership', desc: 'Full commercial P&L accountability, market sizing, channel development, and partner network architecture.' },
     { title: 'Partner & Telco Alliances', desc: 'Extensive track record negotiating carrier distribution, dark fibre pacts, and joint ventures with global telecom providers.' },
     { title: 'Fintech & Capital Structuring', desc: 'Founding and scaling trade finance and corporate card ventures tailored to underserved emerging market enterprises.' },
@@ -267,14 +267,6 @@ export default function Home() {
               LinkedIn
             </a>
             <a 
-              href="https://github.com/billc-hub" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="px-3.5 py-2 rounded-lg text-xs font-semibold text-slate-200 bg-navy-900 hover:bg-navy-800 border border-navy-700 transition-all flex items-center gap-1.5"
-            >
-              GitHub
-            </a>
-            <a 
               href="#contact" 
               className="px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider text-navy-950 bg-gold-500 hover:bg-gold-400 transition-all shadow-md"
             >
@@ -309,7 +301,6 @@ export default function Home() {
             <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="block py-1 text-slate-300 hover:text-gold-400">Contact</a>
             <div className="pt-3 border-t border-navy-800 flex flex-wrap gap-2">
               <a href="https://www.linkedin.com/in/bill-crawley/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded text-xs bg-navy-800 text-slate-200">LinkedIn</a>
-              <a href="https://github.com/billc-hub" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded text-xs bg-navy-800 text-slate-200">GitHub</a>
               <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="px-3 py-1.5 rounded text-xs bg-gold-500 text-navy-950 font-semibold">Get in Touch</a>
             </div>
           </div>
@@ -360,18 +351,10 @@ export default function Home() {
                     LinkedIn Profile
                   </a>
                   <a 
-                    href="https://github.com/billc-hub" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="px-5 py-3 rounded-lg text-sm font-semibold text-slate-200 bg-navy-900 hover:bg-navy-800 border border-navy-700 transition-all flex items-center gap-2"
-                  >
-                    GitHub
-                  </a>
-                  <a 
-                    href="#contact" 
+                    href="#experience" 
                     className="px-5 py-3 rounded-lg text-sm font-semibold text-slate-300 hover:text-white bg-navy-800/60 hover:bg-navy-800 border border-slate-700 transition-all"
                   >
-                    Direct Contact
+                    Career Timeline
                   </a>
                 </div>
               </div>
@@ -402,8 +385,8 @@ export default function Home() {
                       <a href="tel:+971567378988" className="text-slate-200">+971 56 737 8988</a>
                     </div>
                     <div className="flex justify-between items-center py-1 border-b border-navy-800/60">
-                      <span className="text-slate-400">Certification</span>
-                      <span className="text-slate-200">Blitzscaling</span>
+                      <span className="text-slate-400">Core Focus</span>
+                      <span className="text-slate-200">Global Scale & Advisory</span>
                     </div>
                   </div>
 
@@ -600,49 +583,30 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Education & Certifications */}
+        {/* Education Section */}
         <section id="education" className="py-24 bg-navy-900/40 border-b border-navy-800/80">
           <div className="max-w-7xl mx-auto px-6">
+            <div className="max-w-3xl mb-12">
+              <h2 className="text-xs uppercase tracking-widest text-gold-400 font-semibold mb-2">Academic Foundation</h2>
+              <h3 className="text-3xl font-bold text-white tracking-tight">Education</h3>
+            </div>
             
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              
-              {/* Academic */}
-              <div>
-                <h2 className="text-xs uppercase tracking-widest text-gold-400 font-semibold mb-2">Academic Foundation</h2>
-                <h3 className="text-3xl font-bold text-white mb-6">Education</h3>
-                
-                <div className="space-y-4">
-                  <div className="p-6 rounded-2xl bg-navy-900 border border-navy-800">
-                    <span className="text-xs font-semibold text-gold-400">1982 – 1986</span>
-                    <h4 className="text-lg font-bold text-white mt-1">The University of Western Australia</h4>
-                    <p className="text-sm text-slate-300">Master’s Degree, Education</p>
-                  </div>
-                  <div className="p-6 rounded-2xl bg-navy-900 border border-navy-800">
-                    <h4 className="text-lg font-bold text-white">The University of Western Australia</h4>
-                    <p className="text-sm text-slate-300">Bachelor’s Degree, BPEd</p>
-                  </div>
-                  <div className="p-6 rounded-2xl bg-navy-900 border border-navy-800">
-                    <h4 className="text-lg font-bold text-white">Mount Lawley High School</h4>
-                    <p className="text-sm text-slate-400">Western Australia</p>
-                  </div>
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="p-7 rounded-2xl bg-navy-900 border border-navy-800">
+                <span className="text-xs font-semibold text-gold-400">1982 – 1986</span>
+                <h4 className="text-lg font-bold text-white mt-1">The University of Western Australia</h4>
+                <p className="text-sm text-slate-300 mt-1">Master’s Degree, Education</p>
               </div>
-
-              {/* Certifications */}
-              <div>
-                <h2 className="text-xs uppercase tracking-widest text-gold-400 font-semibold mb-2">Professional Accreditation</h2>
-                <h3 className="text-3xl font-bold text-white mb-6">Certifications</h3>
-                
-                <div className="p-7 rounded-2xl bg-navy-900 border border-navy-800 border-l-4 border-l-gold-500">
-                  <div className="text-xs uppercase tracking-widest text-gold-400 font-bold mb-1">Executive Program</div>
-                  <h4 className="text-xl font-bold text-white">Blitzscaling</h4>
-                  <p className="text-slate-300 text-sm mt-1">Certified by Reid Hoffman and Chris Yeh</p>
-                  <p className="text-xs text-slate-400 mt-3 leading-relaxed">
-                    Frameworks and operational methodologies for driving hyper-growth, structuring multi-market expansion, and navigating extreme uncertainty at global enterprise scale.
-                  </p>
-                </div>
+              <div className="p-7 rounded-2xl bg-navy-900 border border-navy-800">
+                <span className="text-xs font-semibold text-slate-400">Undergraduate</span>
+                <h4 className="text-lg font-bold text-white mt-1">The University of Western Australia</h4>
+                <p className="text-sm text-slate-300 mt-1">Bachelor’s Degree, BPEd</p>
               </div>
-
+              <div className="p-7 rounded-2xl bg-navy-900 border border-navy-800">
+                <span className="text-xs font-semibold text-slate-400">Secondary</span>
+                <h4 className="text-lg font-bold text-white mt-1">Mount Lawley High School</h4>
+                <p className="text-sm text-slate-400 mt-1">Western Australia</p>
+              </div>
             </div>
 
           </div>
@@ -662,7 +626,7 @@ export default function Home() {
               Based in Dubai with active board directorships, advisory engagements, and venture investments worldwide.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-left">
               
               <a href="mailto:billc@gdcs.group" className="p-6 rounded-2xl bg-navy-900 border border-navy-800 hover:border-gold-500/50 transition-all block">
                 <div className="text-xs uppercase tracking-wider text-slate-400 mb-1">Direct Email</div>
@@ -687,17 +651,6 @@ export default function Home() {
                 <div className="text-xs text-accent-blue mt-3 font-medium">View Profile &rarr;</div>
               </a>
 
-              <a 
-                href="https://github.com/billc-hub" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="p-6 rounded-2xl bg-navy-900 border border-navy-800 hover:border-gold-500/50 transition-all block"
-              >
-                <div className="text-xs uppercase tracking-wider text-slate-400 mb-1">GitHub</div>
-                <div className="text-sm font-bold text-white truncate">billc-hub</div>
-                <div className="text-xs text-slate-300 mt-3 font-medium">View Repos &rarr;</div>
-              </a>
-
             </div>
 
           </div>
@@ -717,7 +670,6 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-4">
             <a href="https://www.linkedin.com/in/bill-crawley/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300">LinkedIn</a>
-            <a href="https://github.com/billc-hub" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300">GitHub</a>
             <a href="#contact" className="hover:text-slate-300">Contact</a>
           </div>
         </div>

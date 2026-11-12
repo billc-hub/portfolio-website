@@ -15,7 +15,6 @@ Bill Crawley brings over 30 years of global leadership experience building and s
   - Scaled 41 offices in 21 African nations + Dubai & India (Mara-Ison).
   - 200M+ users & $70M raised from Sequoia, JAFCO, and SingTel Innov8 (Bubble Motion).
   - 62% retail VoIP market share in India (Net2Phone).
-  - Certified in Blitzscaling by Reid Hoffman & Chris Yeh.
 
 ## Getting Started Locally
 To run this project locally on your computer:
